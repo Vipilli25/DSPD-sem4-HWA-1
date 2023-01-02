@@ -16,15 +16,15 @@ Developed an Online Streaming platform model using concepts of Data structures a
       bogie/seat numbers should be as close to each other. 
    
 2. delete  
-   a. Deletes an element if the passenger cancels the reservation..
+   a. Deletes an element if the passenger cancels the reservation.
    
    b. I/p parameters: deleting all records of that particular passenger id.
    
    c. O/p: If node gets deleted print Reservation cancelled successfully or if it gets 
       failed then print Reservation Cancellation failed.
    
-3. getListDestination 
-   a. Get the list of passengers having the same destination station and same train id
+3. getListDestination                                                                                                                           
+   a. Get the list of passengers having the same destination station and same train id.
    
 4. SortByTravelDate  
    a. Input – Passenger id

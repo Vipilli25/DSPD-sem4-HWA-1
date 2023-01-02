@@ -15,33 +15,20 @@ Developed an Online Streaming platform model using concepts of Data structures a
       need to be accommodated as close to each other in trains, that is, their 
       bogie/seat numbers should be as close to each other. 
    
-2. Search operation  
-   a. Display the details of all movies and TV shows performed by a cast. A cast 
-   name should be inputted by user. The list should be displayed in descending 
-   order of year.
+2. delete  
+   a. Deletes an element if the passenger cancels the reservation..
    
-   b. Display the list TV shows and movies subscribed by the user . While 
-   displaying, give the warning if subscription is about to end as the plan.
+   b. I/p parameters: deleting all records of that particular passenger id.
    
-   c. Make a list of TV shows and movies produced by the same production 
-   company for the given cast details (cast details provided by the user).
+   c. O/p: If node gets deleted print Reservation cancelled successfully or if it gets 
+      failed then print Reservation Cancellation failed.
    
-   d. List all the type of awards won by the particular movie for different categories. 
-   Movie name should be given by user.
+3. getListDestination 
+   a. Get the list of passengers having the same destination station and same train id
    
-3. Sort operation  
-   a. List of all type of awards won/nominated by the cast movie-wise and TV 
-   show-wise. The list should be displayed in descending order of year of 
-   won/nominated.
+4. SortByTravelDate  
+   a. Input – Passenger id
    
-   b. Divide the subscribed user in three categories. Users who are subscribed for 
-   more than 3 years – platinum user, 1.5-3 years- Gold user and less than 1.5 
-   years- Silver user.
-   
-   c. Sort the TV shows based on users viewing time.
-   
-4. Other operations  
-   a. Identify the movie viewed by maximum number of users in a particular month 
-   of the year.
-   
-   b. List the TV shows and movies for the same casting detail
+   b. Output – Display the list of destination stations for a particular passenger as 
+      per the dates of the travel.
+

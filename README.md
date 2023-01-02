@@ -1,10 +1,8 @@
 # DSA-project-sem3-
 Developed an Online Streaming platform model using concepts of Data structures and Algorithms in C.
 
-1. Add /update operation  
-   a. Add a new TV show. While adding if any new cast is found update the cast 
-   database (same criteria should be followed for adding new movie details). For 
-   existing cast update the details of movie or TV show in cast database.
+1. insert  
+   a. Insert a list of passengers and their details for the reservation.
    
    b. Add new user and while adding if any of his/her preference matches with 
    existing any users preferences show the list and allow him to select from them 

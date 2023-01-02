@@ -16,10 +16,10 @@ You can assume number of bogies of each class and number of seats in each bogie.
 Write the following functions :
 
   -insert
-  • Insert a list of passengers and their details for the reservation.
+  • Insert a list of passengers and their details for the reservation. <br>
   • I/p parameters: Reservation request that includes a list of passenger names, 
     passenger ids, boarding train, boarding station, travelling class(Sleeper, 3AC, 
-    2AC, 1AC), destination station, train id
+    2AC, 1AC), destination station, train id.
   • O/P: Reservation done successfully, partially or the reservation failed.
   • Note – The set of passengers in a single reservation request should be 
     allocated seats together. If all of them cannot get the seats together, then they 

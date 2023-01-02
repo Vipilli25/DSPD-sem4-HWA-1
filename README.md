@@ -6,3 +6,8 @@ represents a record of passenger name, passenger id, boarding train, boarding st
 travelling class(Sleeper, 3AC, 2AC, 1AC), destination station, train id, Seat number (bogie 
 number/seat number), and any other field you think that would be useful to passengers. You 
 can also take a confirmation from the passenger whether upgrade of travel class is desired. 
+
+The passenger id can be thought as a key in the list and will represent a unique record in the 
+list. The records should be always kept sorted according to the train id so that passengers
+boarding the same train have their data together.
+

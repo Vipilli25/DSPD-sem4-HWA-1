@@ -4,12 +4,16 @@ Developed an Online Streaming platform model using concepts of Data structures a
 1. insert  
    a. Insert a list of passengers and their details for the reservation.
    
-   b. Add new user and while adding if any of his/her preference matches with 
-   existing any users preferences show the list and allow him to select from them 
-   if he/she wishes. 
+   b. I/p parameters: Reservation request that includes a list of passenger names, 
+      passenger ids, boarding train, boarding station, travelling class(Sleeper, 3AC, 
+      2AC, 1AC), destination station, train id. 
    
-   c. Add new cast and while adding new cast details cross verify award details    
-   with award details in movie and TV show database.
+   c. O/P: Reservation done successfully, partially or the reservation failed.
+   
+   d. Note – The set of passengers in a single reservation request should be 
+      allocated seats together. If all of them cannot get the seats together, then they 
+      need to be accommodated as close to each other in trains, that is, their 
+      bogie/seat numbers should be as close to each other. 
    
 2. Search operation  
    a. Display the details of all movies and TV shows performed by a cast. A cast 
